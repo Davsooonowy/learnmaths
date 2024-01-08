@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/miniprojekt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/miniprojekt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/learn-maths-platform/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/src/components/Algebra.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/Algebra.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-maths-platform/src/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/instance/users.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/server/instance/users.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +30,18 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="blaszczyk1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;blaszczyk1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;some-UI&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/piotr/WebstormProjects/learnmaths&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -80,7 +91,7 @@
       <recent name="C:\Users\piotr\WebstormProjects\learnmaths\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.miniprojekt">
+  <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="miniprojekt" />
       <option name="ENV_FILES" value="" />
@@ -129,13 +140,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,6 +157,8 @@
       <workItem from="1703611124052" duration="1694000" />
       <workItem from="1703724210584" duration="1273000" />
       <workItem from="1703729051574" duration="1232000" />
+      <workItem from="1703785036579" duration="2572000" />
+      <workItem from="1704749770785" duration="722000" />
     </task>
     <servers />
   </component>

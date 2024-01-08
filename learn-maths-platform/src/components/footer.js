@@ -7,7 +7,7 @@ function Footer() {
             <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)', textAlign: 'center', position: 'sticky', bottom: 0}}>
                 &copy; {new Date().getFullYear()} Copyright:{' '}
                 <a className='text-dark'>
-                    Mularczyk, Wilewski
+                    Mularczyk, Wilewski, BłaszczykAustrianPainter
                 </a>
             </div>
         </MDBFooter>
