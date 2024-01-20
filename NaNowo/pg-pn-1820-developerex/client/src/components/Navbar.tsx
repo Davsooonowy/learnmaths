@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <nav className="flex items-center justify-between px-6 py-4">
-            <span className="text-xl font-semibold">Doodle</span>
+            <span className="text-xl font-semibold">LearnMaths</span>
             <ul className="flex items-center gap-6 font-medium">
                 <li>
                     <Link
