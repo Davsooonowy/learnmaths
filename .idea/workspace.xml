@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/LoginForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-maths-platform/src/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learnmaths.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-maths-platform/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-maths-platform/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-maths-platform/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-maths-platform/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-maths-platform/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-maths-platform/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-maths-platform/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;blaszczyk3&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -115,6 +111,9 @@
       <workItem from="1702853531655" duration="75000" />
       <workItem from="1702859886244" duration="3925000" />
       <workItem from="1702899445248" duration="1510000" />
+      <workItem from="1705770709209" duration="65000" />
+      <workItem from="1705770889848" duration="284000" />
+      <workItem from="1705771184870" duration="126000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,4 @@
+.idea/
+database.mv.db*
+database.trace.db*
+.DS_Store
