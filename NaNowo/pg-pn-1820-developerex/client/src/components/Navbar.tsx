@@ -12,10 +12,13 @@ import VpnKeyIcon from '@material-ui/icons/VpnKey';
 
 const Navbar = () => {
     const [user, setUser] = useAtom(userAtom);
-    const { theme } = useTheme(); // Get the current theme
+    const { theme } = useTheme();
 
     return (
-        <nav className={`flex items-center justify-between px-6 py-4 ${theme === 'light' ? 'navbar-light' : 'navbar-dark'}`}>            <span style={{ color: '#3F51B5' }} className="text-xl text-blue-500 font-semibold">LearnMaths</span>
+        <nav className={`flex items-center justify-between px-6 py-4 ${theme === 'light' ? 'navbar-light' : 'navbar-dark'}`}>
+            <Link to="/">
+                <span style={{ color: '#3F51B5' }} className="text-xl text-blue-500 font-semibold">LearnMaths</span>
+            </Link>
             <ul className="flex items-center gap-6 font-medium">
                 <li>
                     <NavButton

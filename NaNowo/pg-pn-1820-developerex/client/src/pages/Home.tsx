@@ -11,12 +11,19 @@ import RoomThumbnail from '../components/RoomThumbnail';
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import AddRoomModal from '../components/AddRoomModal';
-import { Card, CardContent, CardHeader} from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
 
 const Home = () => {
     const user = useAtomValue(userAtom);
     const [data, setData] = useState<any[]>([]);
     const [showModal, setShowModal] = useState(false);
+
+
+    const authTokenCookie = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('authenticationToken='));
+
+    const authToken = authTokenCookie ? authTokenCookie.split('=')[1] : undefined;
 
     const queryRooms = async ({ queryKey }: { queryKey: any }) => {
 
@@ -47,21 +54,18 @@ const Home = () => {
         }
     }, [queryOne.data, queryTwo.data]);
 
+    if (queryOne.isLoading || queryTwo.isLoading) return <p>Loading...</p>;
+    if (queryOne.error || queryTwo.error) return <p>Error :(</p>;
 
-    const authTokenCookie = document.cookie
-        .split('; ')
-        .find(row => row.startsWith('authenticationToken='));
 
-    const authToken = authTokenCookie ? authTokenCookie.split('=')[1] : undefined;
     const tiles = [
         { title: "Matematyka dyskretna", image: image3, link: "/matematyka_dyskretna" },
         { title: "Analiza matematyczna", image: image2, link: "/analiza_matematyczna" },
         { title: "Algebra", image: image1, link: "/algebra" },
     ];
-    if (queryOne.isLoading || queryTwo.isLoading) return <p>Loading...</p>;
-    if (queryOne.error || queryTwo.error) return <p>Error :(</p>;
 
     return (
+        <>
         <div>
             <div>
                 <Card className="w-full sm:w-3/4 lg:w-1/2 border-0 shadow-none mx-auto">
@@ -82,9 +86,10 @@ const Home = () => {
                     </CardContent>
                 </Card>
             </div>
-            <div className="mt-4 text-center"> {/* Ustawienie odstępu (mt-4) i centrowanie tekstu */}
+            <div className="mt-4 text-center">
                 <Card className="w-1/2 border-0 shadow-none mx-auto">
                     <CardHeader className="flex-row items-center justify-between">
+                        <CardTitle className="text-3xl">Your rooms</CardTitle>
                         <Button onClick={() => setShowModal(true)}>
                             Add lesson
                         </Button>
@@ -104,6 +109,7 @@ const Home = () => {
                     )}
             </div>
         </div>
+        </>
     );
 };
 
