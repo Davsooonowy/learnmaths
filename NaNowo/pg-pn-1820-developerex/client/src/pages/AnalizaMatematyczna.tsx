@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import image from '../pages/images/calki.png'; // replace with your image path
+import image from '../pages/images/calki.png';
+import pytanie from '../pages/images/pytanie.png';
 import { useState } from 'react';
 
 const AnalizaMatematyczna = () => {
@@ -7,7 +8,7 @@ const AnalizaMatematyczna = () => {
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
     const checkAnswer = () => {
-        const correctAnswer = 'A'; // replace with the correct answer
+        const correctAnswer = 'A';
         setIsCorrect(selectedAnswer === correctAnswer);
     };
 
@@ -18,16 +19,17 @@ const AnalizaMatematyczna = () => {
             </CardHeader>
             <CardContent>
                 <img src={image} alt="Analiza Matematyczna" className="object-contain w-full h-full" />
-                <p>Your text here</p>
-                <div>
-                    <p>Question 1:</p>
+                <p>Całki służą do całkowania, całki są ciężkie, całki to ból, całki nigdy was nie opuszczą.</p>
+                <div className="text-center">
+                    <p>Oblicz całkę oznaczoną:</p>
+                    <img src={pytanie} alt="Całka" className="object-contain w-full h-full"/>
                     <input type="radio" id="A" name="answer" value="A" onChange={() => setSelectedAnswer('A')} />
-                    <label htmlFor="A">Option A</label><br/>
+                    <label htmlFor="A">2.41634</label><br/>
                     <input type="radio" id="B" name="answer" value="B" onChange={() => setSelectedAnswer('B')} />
-                    <label htmlFor="B">Option B</label><br/>
+                    <label htmlFor="B">2.137</label><br/>
                     <input type="radio" id="C" name="answer" value="C" onChange={() => setSelectedAnswer('C')} />
-                    <label htmlFor="C">Option C</label><br/>
-                    <button onClick={checkAnswer}>Check Answer</button>
+                    <label htmlFor="C">5.0</label><br/>
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={checkAnswer}>Check Answer</button>
                     {isCorrect !== null && (
                         <p>{isCorrect ? 'Correct!' : 'Incorrect, try again.'}</p>
                     )}

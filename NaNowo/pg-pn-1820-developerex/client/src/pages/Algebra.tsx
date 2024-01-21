@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import image from '../pages/images/algebra.jpg'; // replace with your image path
+import image from '../pages/images/algebra.jpg';
+import macierz from '../pages/images/macierz.png';
 import { useState } from 'react';
 
 const Algebra = () => {
@@ -7,7 +8,7 @@ const Algebra = () => {
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
     const checkAnswer = () => {
-        const correctAnswer = 'A'; // replace with the correct answer
+        const correctAnswer = 'A';
         setIsCorrect(selectedAnswer === correctAnswer);
     };
 
@@ -18,16 +19,17 @@ const Algebra = () => {
             </CardHeader>
             <CardContent>
                 <img src={image} alt="Algebra" className="object-contain w-full h-full" />
-                <p>Your text here</p>
-                <div>
-                    <p>Question 1:</p>
+                <p>Kto wymyślił istnienie takiej matematyki toż to zupełnie nie ma sensu, ale przynajmniej wykładowca spoko.</p>
+                <div className="text-center">
+                    <p>Oblicz wyznacznik macierzy 3x3:</p>
+                    <img src={macierz} alt="Macierz" className="object-contain w-full h-full"/>
                     <input type="radio" id="A" name="answer" value="A" onChange={() => setSelectedAnswer('A')} />
-                    <label htmlFor="A">Option A</label><br/>
+                    <label htmlFor="A">3(65+24e^2+6pi^2)</label><br/>
                     <input type="radio" id="B" name="answer" value="B" onChange={() => setSelectedAnswer('B')} />
-                    <label htmlFor="B">Option B</label><br/>
+                    <label htmlFor="B">65+24e^2+6pi^2</label><br/>
                     <input type="radio" id="C" name="answer" value="C" onChange={() => setSelectedAnswer('C')} />
-                    <label htmlFor="C">Option C</label><br/>
-                    <button onClick={checkAnswer}>Check Answer</button>
+                    <label htmlFor="C">21+3e^2+7pi^2C</label><br/>
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={checkAnswer}>Check Answer</button>
                     {isCorrect !== null && (
                         <p>{isCorrect ? 'Correct!' : 'Incorrect, try again.'}</p>
                     )}
