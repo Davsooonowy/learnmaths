@@ -1,14 +1,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import image from '../pages/images/dyskretna.png'; // replace with your image path
+import image from '../pages/images/dyskretna.png';
 import { useState } from 'react';
 
 const MatematykaDyskretna = () => {
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
-    const checkAnswer = () => {
-        const correctAnswer = 'A'; // replace with the correct answer
-        setIsCorrect(selectedAnswer === correctAnswer);
+const checkAnswer = () => {
+    const correctAnswers = ['B', 'C'];
+    setIsCorrect(selectedAnswer !== null && correctAnswers.includes(selectedAnswer));
+};
+
+    const handleAnswerChange = (answer: string, isChecked: boolean) => {
+        setSelectedAnswer(isChecked ? answer : null);
     };
 
     return (
@@ -18,16 +22,16 @@ const MatematykaDyskretna = () => {
             </CardHeader>
             <CardContent>
                 <img src={image} alt="Matematyka Dyskretna" className="object-contain w-full h-full" />
-                <p>Your text here</p>
-                <div>
-                    <p>Question 1:</p>
-                    <input type="radio" id="A" name="answer" value="A" onChange={() => setSelectedAnswer('A')} />
-                    <label htmlFor="A">Option A</label><br/>
-                    <input type="radio" id="B" name="answer" value="B" onChange={() => setSelectedAnswer('B')} />
-                    <label htmlFor="B">Option B</label><br/>
-                    <input type="radio" id="C" name="answer" value="C" onChange={() => setSelectedAnswer('C')} />
-                    <label htmlFor="C">Option C</label><br/>
-                    <button onClick={checkAnswer}>Check Answer</button>
+                <p>Po co się tego uczyć, ocena z egzaminu to random z przedziału (3,5)</p>
+                <div className="text-center">
+                    <p>Czy jeśli n+1 obiektów zostanie rozmieszczone w n pudełkach, to czy znajdzie się pudełko, w którym będą 2 przedmioty?:</p>
+                    <input type="radio" id="A" name="answer" value="A" onChange={(e) => handleAnswerChange('A', e.target.checked)} />
+                    <label htmlFor="A">Nie</label><br/>
+                    <input type="radio" id="B" name="answer" value="B" onChange={(e) => handleAnswerChange('B', e.target.checked)} />
+                    <label htmlFor="B">Tak</label><br/>
+                    <input type="radio" id="C" name="answer" value="C" onChange={(e) => handleAnswerChange('C', e.target.checked)} />
+                    <label htmlFor="C">Nie wiem</label><br/>
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={checkAnswer}>Check Answer</button>
                     {isCorrect !== null && (
                         <p>{isCorrect ? 'Correct!' : 'Incorrect, try again.'}</p>
                     )}
