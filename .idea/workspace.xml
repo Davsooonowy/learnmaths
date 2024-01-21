@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Room.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\dawid\\OneDrive\\Pulpit\\STUDIA\\III_Semestr\\WDAI\\miniprojekt\\NaNowo\\pg-pn-1820-developerex\\client\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\macie\\WebstormProjects\\learnmaths\\NaNowo\\pg-pn-1820-developerex\\client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
