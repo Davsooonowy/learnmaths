@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="">
+    <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="kosmetyka">
+      <change afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Room.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" afterDir="false" />
     </list>
@@ -116,6 +114,15 @@
       <workItem from="1705770889848" duration="284000" />
       <workItem from="1705771184870" duration="126000" />
     </task>
+    <task id="LOCAL-00001" summary="kosmetyka">
+      <option name="closed" value="true" />
+      <created>1705860964473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705860964473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kosmetyka" />
+    <option name="LAST_COMMIT_MESSAGE" value="kosmetyka" />
   </component>
 </project>

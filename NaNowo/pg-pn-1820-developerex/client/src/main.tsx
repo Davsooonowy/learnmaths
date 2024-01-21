@@ -12,6 +12,7 @@ import Registration from "@/pages/Register.tsx";
 import MatematykaDyskretna from "@/pages/MatematykaDyskretna.tsx";
 import AnalizaMatematyczna from "@/pages/AnalizaMatematyczna.tsx";
 import Algebra from "@/pages/Algebra.tsx";
+import Room from "@/pages/Room.tsx";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,14 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
                                 element={
                                     <ProtectedRoute>
                                         <Home />
+                                    </ProtectedRoute>
+                                }
+                            />
+                            <Route
+                                path="/room/:id"
+                                element={
+                                    <ProtectedRoute>
+                                        <Room />
                                     </ProtectedRoute>
                                 }
                             />
