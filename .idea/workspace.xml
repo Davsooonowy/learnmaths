@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Room.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -46,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "UI",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\macie\\WebstormProjects\\learnmaths\\NaNowo\\pg-pn-1820-developerex\\client\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UI&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dawid\\OneDrive\\Pulpit\\STUDIA\\III_Semestr\\WDAI\\miniprojekt\\NaNowo\\pg-pn-1820-developerex\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>

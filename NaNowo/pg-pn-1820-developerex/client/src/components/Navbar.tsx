@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ModeToggle } from './mode-toggle';
 import { serverUrl } from '../lib/data';
 import { useTheme } from '@/components/theme-provider';
-import { Button as MuiButton, styled } from '@material-ui/core';
+import { Button as NavButton} from '@material-ui/core';
 import HomeIcon from '@material-ui/icons/Home';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import PersonAddIcon from '@material-ui/icons/PersonAdd';
@@ -15,11 +15,10 @@ const Navbar = () => {
     const { theme } = useTheme(); // Get the current theme
 
     return (
-        <nav className={`flex items-center justify-between px-6 py-4 ${theme === 'light' ? 'navbar-light' : ''}`}>
-            <span style={{ color: '#3F51B5' }} className="text-xl text-blue-500 font-semibold">LearnMaths</span>
+        <nav className={`flex items-center justify-between px-6 py-4 ${theme === 'light' ? 'navbar-light' : 'navbar-dark'}`}>            <span style={{ color: '#3F51B5' }} className="text-xl text-blue-500 font-semibold">LearnMaths</span>
             <ul className="flex items-center gap-6 font-medium">
                 <li>
-                    <MuiButton
+                    <NavButton
                         variant="contained"
                         color="primary"
                         startIcon={<HomeIcon/>}
@@ -27,11 +26,11 @@ const Navbar = () => {
                         to="/"
                     >
                         Home
-                    </MuiButton>
+                    </NavButton>
                 </li>
                 {user == undefined && (
                     <li>
-                        <MuiButton
+                        <NavButton
                             variant="outlined"
                             color="primary"
                             startIcon={<VpnKeyIcon/>}
@@ -39,12 +38,12 @@ const Navbar = () => {
                             to="/login"
                         >
                             Login
-                        </MuiButton>
+                        </NavButton>
                     </li>
                 )}
                 {user == undefined && (
                     <li>
-                        <MuiButton
+                        <NavButton
                             variant="outlined"
                             color="primary"
                             startIcon={<PersonAddIcon/>}
@@ -52,12 +51,12 @@ const Navbar = () => {
                             to="/register"
                         >
                             SignUp
-                        </MuiButton>
+                        </NavButton>
                     </li>
                 )}
                 {user != undefined && (
                     <li>
-                        <MuiButton
+                        <NavButton
                             variant="outlined"
                             color="secondary"
                             startIcon={<ExitToAppIcon />}
@@ -67,7 +66,7 @@ const Navbar = () => {
                             }}
                         >
                             Logout
-                        </MuiButton>
+                        </NavButton>
                     </li>
                 )}
                 <li>

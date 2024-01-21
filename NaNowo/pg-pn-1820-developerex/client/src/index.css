@@ -14,3 +14,34 @@ body:not(.dark) .border-gray-200 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.navbar-dark {
+    box-shadow: 0 0 10px #3F51B5;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(63, 81, 181, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(63, 81, 181, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(63, 81, 181, 0);
+    }
+}
+
+.hover\:border-pulse:hover {
+    animation: pulse 1s infinite;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
+}
