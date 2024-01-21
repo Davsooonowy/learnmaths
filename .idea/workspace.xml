@@ -6,12 +6,198 @@
   <component name="ChangeListManager">
     <list default="true" id="f3c76106-b06a-40be-8ee2-378095d5006f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/.idea/Podjebane.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/@aashutoshrathi/word-wrap/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/@babel/parser/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/@babel/traverse/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/@humanwhocodes/object-schema/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/@isaacs/cliui/._LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/@pkgjs/parseargs/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/acorn/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/argparse/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/brace-expansion/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/chokidar/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/color-convert/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/color-name/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/deep-is/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/didyoumean/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/doctrine/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/eslint/node_modules/color-convert/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/foreground-child/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/function-bind/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/glob/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/jiti/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/js-tokens/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/json-buffer/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/json-schema-traverse/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/lilconfig/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/lodash.merge/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/loose-envify/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/micromatch/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/nanoid/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/object-hash/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/path-parse/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/picomatch/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/postcss-import/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/postcss-js/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/postcss-nested/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/prelude-ls/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/punycode/._LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/queue-microtask/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/resolve/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/reusify/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/scheduler/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/source-map-js/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/string-width-cjs/node_modules/emoji-regex/._LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/tslib/._CopyrightNotice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/tslib/._LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/type-check/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/util-deprecate/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/wrap-ansi-cjs/node_modules/color-convert/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/wrap-ansi-cjs/node_modules/emoji-regex/._LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/yallist/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/__MACOSX/pg-pn-1820-developerex/client/node_modules/yaml/._LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/.prettierrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/bun.lockb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/AddRoomModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/AddTermModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/CalendarTerm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/CalendarWeek.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/DatePicker.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/EditRoomModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/RoomThumbnail.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/Term.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/VoteModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/mode-toggle.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/theme-provider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/card.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/dialog.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/dropdown-menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/pagination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/popover.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/select.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/textarea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/components/ui/tooltip.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/lib/data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/lib/response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/lib/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Algebra.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/AnalizaMatematyczna.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/MatematykaDyskretna.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/ProtectedRoute.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/Register.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/algebra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/calki.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/dyskretna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/frydrychkox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/macierz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/meszka1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/przybylo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/pages/images/pytanie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/client/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/dasd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/ExampleConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/GreetingsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/attendee/AttendeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/attendee/AttendeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/attendee/AttendeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/attendee/dto/AttendeeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/attendee/mapper/AttendeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/attendee/model/Attendee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/RefreshToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/RefreshTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/RefreshTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/VerificationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/VerificationTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/dto/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/dto/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/auth/dto/RefreshTokenRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/exeptions/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/mail/MailBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/mail/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/RoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/dto/EditRoomDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/dto/NewRoomDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/dto/RoomDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/dto/RoomInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/mapper/RoomMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/room/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/sercurity/JwtProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/term/TermController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/term/TermRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/term/TermService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/term/dto/TermDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/term/mapper/TermMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/term/model/Term.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/validation/FutureFetchTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/validation/FutureFetchTimeValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/VoteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/VoteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/VoteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/dto/NewVoteDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/dto/VoteDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/mapper/VoteMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/model/Vote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/java/com/developerex/server/vote/model/VoteType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/resources/app.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/resources/app.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/main/resources/templates/htmlTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/ServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/attendee/AttendeeMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/attendee/AttendeeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/room/RoomMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/room/RoomServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/term/TermMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/term/TermServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/vote/VoteMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NaNowo/pg-pn-1820-developerex/server/src/test/java/com/developerex/server/vote/VoteServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +218,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="blaszczyk3" />
+        <entry key="$PROJECT_DIR$" value="blaszczyk4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,14 +241,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;UI&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/piotr/WebstormProjects/Podjebane&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dawid\\OneDrive\\Pulpit\\STUDIA\\III_Semestr\\WDAI\\miniprojekt\\NaNowo\\pg-pn-1820-developerex\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\piotr\\WebstormProjects\\learnmaths\\NaNowo\\pg-pn-1820-developerex\\client\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -115,6 +302,10 @@
       <workItem from="1705770709209" duration="65000" />
       <workItem from="1705770889848" duration="284000" />
       <workItem from="1705771184870" duration="126000" />
+      <workItem from="1705865373020" duration="18000" />
+      <workItem from="1705865498408" duration="14000" />
+      <workItem from="1705866569166" duration="59000" />
+      <workItem from="1705866703546" duration="112000" />
     </task>
     <servers />
   </component>
