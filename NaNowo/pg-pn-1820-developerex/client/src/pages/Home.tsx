@@ -89,9 +89,9 @@ const Home = () => {
             <div className="mt-4 text-center">
                 <Card className="w-1/2 border-0 shadow-none mx-auto">
                     <CardHeader className="flex-row items-center justify-between">
-                        <CardTitle className="text-3xl">Your rooms</CardTitle>
+                        <CardTitle className="text-3xl">zajecia BIT</CardTitle>
                         <Button onClick={() => setShowModal(true)}>
-                            Add lesson
+                            dodaj zajecia
                         </Button>
                     </CardHeader>
                     <CardContent>

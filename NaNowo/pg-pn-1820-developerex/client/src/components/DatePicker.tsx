@@ -57,7 +57,7 @@ const DatePicker: React.FC<{
                     {start ? (
                         start.format('DD-MM-YYYY, HH:mm')
                     ) : (
-                        <span>Pick a date</span>
+                        <span>Wybierz date</span>
                     )}
                 </Button>
             </PopoverTrigger>

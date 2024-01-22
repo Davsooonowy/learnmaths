@@ -13,7 +13,7 @@ const CalendarWeek: FC<{ terms: TermType[] }> = ({ terms }) => {
                 }}
             >
                 <div className="col-span-1"></div>
-                <div className="col-span-6 text-center">No terms</div>
+                <div className="col-span-6 text-center">Brak terminow</div>
             </div>
         );
     }

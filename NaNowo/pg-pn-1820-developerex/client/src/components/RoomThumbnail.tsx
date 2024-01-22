@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { userAtom } from '../lib/user';
 import {
     Card,
-    CardContent,
     CardDescription,
     CardHeader,
     CardTitle,

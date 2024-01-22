@@ -64,13 +64,13 @@ const EditRoomModal: FC<{
                     className="cursor-auto"
                 >
                     <CardHeader>
-                        <CardTitle className="text-2xl">Edit Room</CardTitle>
+                        <CardTitle className="text-2xl">Edytuj zajecia</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <div className="grid gap-4 py-4">
                             <div className="grid grid-cols-5 items-center gap-4">
                                 <Label htmlFor="title" className="text-left">
-                                    Title
+                                    Temat
                                 </Label>
                                 <Input
                                     id="title"
@@ -87,7 +87,7 @@ const EditRoomModal: FC<{
                                     htmlFor="description"
                                     className="text-left"
                                 >
-                                    Description
+                                    Opis
                                 </Label>
                                 <Textarea
                                     className="col-span-4 max-h-[120px]"
@@ -105,9 +105,9 @@ const EditRoomModal: FC<{
                             type="button"
                             onClick={onClose}
                         >
-                            Cancel
+                            Anuluj
                         </Button>
-                        <Button type="submit">Change</Button>
+                        <Button type="submit">Zapisz</Button>
                     </CardFooter>
                 </Card>
             </form>

@@ -81,10 +81,10 @@ const VoteModal: FC<{ id: number; onClose: () => void }> = ({
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectItem value="AVAILABLE">
-                                    Available
+                                    Dostepny
                                 </SelectItem>
                                 <SelectItem value="NOT_AVAILABLE">
-                                    Not Available
+                                    Niedostepny
                                 </SelectItem>
                                 <SelectItem value="MAYBE">Maybe</SelectItem>
                                 <SelectItem value="PENDING">Pending</SelectItem>
@@ -97,10 +97,10 @@ const VoteModal: FC<{ id: number; onClose: () => void }> = ({
                             type="button"
                             onClick={onClose}
                         >
-                            Cancel
+                            Anuluj
                         </Button>
                         <Button type="submit" disabled={voteType === undefined}>
-                            Vote
+                            Glosuj
                         </Button>
                     </CardFooter>
                 </Card>
@@ -131,7 +131,7 @@ const VoteModal: FC<{ id: number; onClose: () => void }> = ({
                                 className={`accent-emerald-600 ${inputClass}`}
                                 checked={voteType === 'AVAILABLE'}
                             ></input>
-                            <label>Available</label>
+                            <label>Dostepny</label>
                         </fieldset>
                         <fieldset className={`${fieldsetClass}`}>
                             <input
@@ -142,7 +142,7 @@ const VoteModal: FC<{ id: number; onClose: () => void }> = ({
                                 className={`accent-rose-600 ${inputClass}`}
                                 checked={voteType === 'NOT_AVAILABLE'}
                             ></input>
-                            <label>Not Available</label>
+                            <label>Niedostepny</label>
                         </fieldset>
                         <fieldset className={`${fieldsetClass}`}>
                             <input
@@ -153,7 +153,7 @@ const VoteModal: FC<{ id: number; onClose: () => void }> = ({
                                 className={`accent-amber-600 ${inputClass}`}
                                 checked={voteType === 'MAYBE'}
                             ></input>
-                            <label>Maybe</label>
+                            <label>Moze</label>
                         </fieldset>
                         <fieldset className={`${fieldsetClass}`}>
                             <input
@@ -164,11 +164,11 @@ const VoteModal: FC<{ id: number; onClose: () => void }> = ({
                                 className={`accent-orange-600 ${inputClass}`}
                                 checked={voteType === 'PENDING'}
                             ></input>
-                            <label>Pending</label>
+                            <label>Spodziewam sie</label>
                         </fieldset>
                     </div>
                     <button className="mt-2 w-32 rounded-full bg-emerald-500 py-2 font-bold text-white">
-                        Send Vote
+                        Przeslij
                     </button>
                 </form>
             </div>

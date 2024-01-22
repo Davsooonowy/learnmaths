@@ -28,7 +28,7 @@ const Navbar = () => {
                         component={Link}
                         to="/"
                     >
-                        Home
+                        Strona glowna
                     </NavButton>
                 </li>
                 {user == undefined && (
@@ -40,7 +40,7 @@ const Navbar = () => {
                             component={Link}
                             to="/login"
                         >
-                            Login
+                            Zaloguj sie
                         </NavButton>
                     </li>
                 )}
@@ -53,7 +53,7 @@ const Navbar = () => {
                             component={Link}
                             to="/register"
                         >
-                            SignUp
+                            Zarejestruj sie
                         </NavButton>
                     </li>
                 )}
@@ -68,7 +68,7 @@ const Navbar = () => {
                                 handleLogout();
                             }}
                         >
-                            Logout
+                            Wyloguj sie
                         </NavButton>
                     </li>
                 )}

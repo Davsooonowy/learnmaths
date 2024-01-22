@@ -90,13 +90,13 @@ const AddRoomModal: FC<{
                     className="cursor-auto"
                 >
                     <CardHeader>
-                        <CardTitle className="text-2xl">Create Room</CardTitle>
+                        <CardTitle className="text-2xl">dodaj zajecia</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <div className="grid gap-4 py-4">
                             <div className="grid grid-cols-5 items-center gap-4">
                                 <Label htmlFor="title" className="text-left">
-                                    Title
+                                    Temat
                                 </Label>
                                 <Input
                                     id="title"
@@ -113,7 +113,7 @@ const AddRoomModal: FC<{
                                     htmlFor="description"
                                     className="text-left"
                                 >
-                                    Description
+                                    Opis
                                 </Label>
                                 <Textarea
                                     className="col-span-4 max-h-[120px]"
@@ -125,7 +125,7 @@ const AddRoomModal: FC<{
                             </div>
                             <div className="grid grid-cols-5 items-center gap-4">
                                 <Label htmlFor="to-add" className="text-left">
-                                    Users to add
+                                    Uczestnicy
                                 </Label>
                                 {participantsEmails.map((email, index) => (
                                     <div key={index} className="col-span-4 flex gap-2">
@@ -153,7 +153,7 @@ const AddRoomModal: FC<{
                             type="button"
                             onClick={onClose}
                         >
-                            Cancel
+                            Anuluj
                         </Button>
                         <Button type="submit">Create Room</Button>
                     </CardFooter>

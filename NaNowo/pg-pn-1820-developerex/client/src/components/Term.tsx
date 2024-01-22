@@ -78,10 +78,10 @@ const Term: FC<{ term: TermType; monday: dayjs.Dayjs; minHour: number }> = ({
                         </Card>
                     </TooltipTrigger>
                     <TooltipContent className="text-base font-semibold">
-                        <p>Available: {available}</p>
-                        <p>Not Available: {notAvailable}</p>
-                        <p>Maybe: {maybe}</p>
-                        <p>Pending: {pending}</p>
+                        <p>Dostepny: {available}</p>
+                        <p>Niemozliwosc: {notAvailable}</p>
+                        <p>Moze: {maybe}</p>
+                        <p>spodziewam sie: {pending}</p>
                     </TooltipContent>
                 </Tooltip>
             </TooltipProvider>

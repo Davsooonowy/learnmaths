@@ -136,18 +136,18 @@ const Room = () => {
                                         onClick={() => setEditRoom(true)}
                                         variant="outline"
                                     >
-                                        Edit room
+                                        edytuj zajecia
                                     </Button>
                                     <Button onClick={() => setAddTerm(true)}>
-                                        Add term
+                                        dodaj termin
                                     </Button>
                                     <Button onClick={() => stopVote()}>
-                                        Stop voting
+                                        zakoncz glosowanie
                                     </Button>
                                 </>
                             )}
                             <p>
-                                Owner: {userId == owner.id ? `You` : owner.username}
+                                nauczyciel: {userId == owner.id ? `Ty` : owner.username}
                             </p>
                         </div>
                     </CardHeader>
@@ -180,11 +180,11 @@ const Room = () => {
                 <table className="mt-4 w-full border-collapse border border-gray-400">
                     <thead>
                     <tr className="bg-gray-200">
-                        <th className="p-2 border">Term</th>
-                        <th className="p-2 border">Available</th>
-                        <th className="p-2 border">Not Available</th>
-                        <th className="p-2 border">Maybe</th>
-                        <th className="p-2 border">Pending</th>
+                        <th className="p-2 border">termin</th>
+                        <th className="p-2 border">dostepny</th>
+                        <th className="p-2 border">niedostepny</th>
+                        <th className="p-2 border">moze</th>
+                        <th className="p-2 border">spodziewam sie</th>
                     </tr>
                     </thead>
                     <tbody>

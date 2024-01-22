@@ -65,13 +65,13 @@ const AddTermModal: FC<{ id: number; onClose: () => void }> = ({
                     className="cursor-auto"
                 >
                     <CardHeader>
-                        <CardTitle className="text-2xl">Edit Room</CardTitle>
+                        <CardTitle className="text-2xl">Edytuj Dane</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <div className="grid gap-4 py-4">
                             <div className="grid grid-cols-5 items-center gap-4">
                                 <Label htmlFor="title" className="text-left">
-                                    Start
+                                    Data
                                 </Label>
                                 <DatePicker start={start} setStart={setStart} />
                             </div>
@@ -80,7 +80,7 @@ const AddTermModal: FC<{ id: number; onClose: () => void }> = ({
                                     htmlFor="title"
                                     className="col-span-2 text-left"
                                 >
-                                    Duration
+                                    Czas trwania
                                 </Label>
                                 <Select onValueChange={(e) => setDuration(+e)}>
                                     <SelectTrigger className="col-span-3">
@@ -89,16 +89,16 @@ const AddTermModal: FC<{ id: number; onClose: () => void }> = ({
                                     <SelectContent>
                                         <SelectGroup>
                                             <SelectItem value="15">
-                                                15 minutes
+                                                15 minut
                                             </SelectItem>
                                             <SelectItem value="30">
-                                                30 minutes
+                                                30 minut
                                             </SelectItem>
                                             <SelectItem value="45">
-                                                45 minutes
+                                                45 minut
                                             </SelectItem>
                                             <SelectItem value="60">
-                                                60 minutes
+                                                60 minut
                                             </SelectItem>
                                         </SelectGroup>
                                     </SelectContent>
@@ -112,9 +112,9 @@ const AddTermModal: FC<{ id: number; onClose: () => void }> = ({
                             type="button"
                             onClick={onClose}
                         >
-                            Cancel
+                            Anuluj
                         </Button>
-                        <Button type="submit">Change</Button>
+                        <Button type="submit">Zapisz zmiany</Button>
                     </CardFooter>
                 </Card>
             </form>
